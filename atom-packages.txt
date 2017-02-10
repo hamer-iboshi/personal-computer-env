@@ -1,2 +1,8 @@
+- Linter
+- Slinter
+- Minimap
+- Pigments
+- Autoclose-html
+- Pulsor-Cursor
 - file-icon
-- ...
+
