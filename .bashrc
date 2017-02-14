@@ -115,7 +115,7 @@ export PATH=$PATH:/home/soft/linux/mips/cross/bin:.
 #execute mars
 function mars() { java -jar /home/soft/linux/mips/Mars.jar "$@" ; }
 export PATH=$PATH:~/cmips/cMIPS/bin
-export PS1='\u>\h\[\033[01;34m\]\w\[\033[0;32m\]$(__git_ps1 "(%s)")\[\033[01;34m\]$\[\033[00m\] '
+export PS1='\u>\h\[\033[01;34m\]{\w}\[\033[0;32m\]$(__git_ps1 "(%s)")\[\033[01;34m\]\n$\[\033[00m\] '
 alias vaiNB="cd ~/../../../nobackup/bcc/hi15/nobackup/"
 export PATH=/home/soft/likwid/bin:/home/soft/likwid/sbin:$PATH
 export LD_LIBRARY_PATH=/home/soft/likwid/lib:$LD_LIBRARY_PATH
